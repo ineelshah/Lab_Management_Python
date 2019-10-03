@@ -6,7 +6,7 @@ import datetime
 import pymysql
 
 
-conn = pymysql.connect(host = 'localhost', user = 'Neel Shah', password = 'hiralkamlesh', db = 'attend')
+
 sql = conn.cursor()
 
 arr_ip = list()
