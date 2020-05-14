@@ -5,7 +5,7 @@ import sys
 import datetime
 import pymysql
 
-
+conn = pymysql.connect(host = 'localhost', user = 'Neel Shah', password = 'hiralkamlesh', db = 'attend')
 
 sql = conn.cursor()
 
