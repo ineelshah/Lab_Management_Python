@@ -5,7 +5,7 @@ import sys
 import datetime
 import pymysql
 
-conn = pymysql.connect(host = 'localhost', user = 'Neel Shah', password = 'hiralkamlesh', db = 'attend')
+conn = pymysql.connect(host = 'localhost', user = '#', password = '#', db = 'attend')
 
 sql = conn.cursor()
 
@@ -96,6 +96,7 @@ def file_timestamper():
     f = open('attendance.txt', 'a')
     f.write("Attendance for:" + today_str + '\n')
     f.close()
+
 """
 def attendance(name = ""):
     today = datetime.datetime.today()
